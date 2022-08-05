@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@meetapp/api/data-access": ["libs/api/data-access/src/index.ts"],
+      "@meetapp/api/domain/user": ["libs/api/domain/user/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
